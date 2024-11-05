@@ -2,7 +2,7 @@ namespace SpriteKind {
     export const botm = SpriteKind.create()
 }
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
-    game.splash("a game by michael stanski")
+    game.splash("a game by Michael stanski, background by David stanski")
 })
 controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
     mySprite.x += -3
